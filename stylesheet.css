@@ -3,6 +3,7 @@ body {
 }
 
 .row {
+	margin: auto;
 	width: 960px;
 	background: #fff;
 }
