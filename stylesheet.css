@@ -3,16 +3,13 @@ body {
 }
 
 .row {
-	width: auto;
-	height: 64px;
+	width: 960px;
 	background: #fff;
 }
 
 .block {
-	width: 64px;
-	height: 64px;
 	margin: 0;
-	border: 1px solid #fff;
+	outline: 1px solid white;
 	display: inline-block;
 	background: #e6e6e6;
 }
