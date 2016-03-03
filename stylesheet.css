@@ -1,0 +1,18 @@
+body {
+	margin: auto;
+}
+
+.row {
+	width: auto;
+	height: 64px;
+	background: #fff;
+}
+
+.block {
+	width: 64px;
+	height: 64px;
+	margin: 0;
+	border: 1px solid #fff;
+	display: inline-block;
+	background: #e6e6e6;
+}
