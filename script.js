@@ -1,5 +1,3 @@
-
-
 var reset = function() {
 	var width = 960;
 	var rows = prompt("How many rows?");
@@ -7,6 +5,9 @@ var reset = function() {
 	var height = Math.floor(width * cols / rows);
 	var blockWidth = width / rows;
 	var blockHeight = height / cols;
+
+	$('block').detach();
+	$('.row').detach();
 
 	var $row = $('<div/>', {
 		class: 'row'
